@@ -1,6 +1,12 @@
 SMS Python API Client ( https://easysms.4simple.org )
 =====================================================
 
+Installation
+------------
+
+> pip  install sms_api
+
+
 This lib allow easily add SMS text messages to your python applications. Just create an account in
 https://easysms.4simple.org for obtain your API credential.
 Code Examples ::
@@ -52,4 +58,3 @@ Code Examples ::
         print "Error while try get SMS processing status for pid %s, due to: %s" % (pid, result.get("error"))
     else:
         print "SMS processing status for pid %s is %s" % (pid, result.get("status"))
-
