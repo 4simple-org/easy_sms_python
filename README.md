@@ -1,5 +1,5 @@
-SMS Python API Client ( https://easysms.4simple.org )
-=====================================================
+SMS API Client for Python
+=========================
 
 Installation
 ------------
