@@ -2,7 +2,8 @@
     Setup for SMS_Easy API.
 """
 
-from distutils.core import setup
+from setuptools import setup
+
 
 setup(
     name='sms_api',
@@ -10,15 +11,22 @@ setup(
     url='https://bitbucket.org/smr-team/easy_sms_python',
     packages=['sms_api'],
     package_dir={'': 'src'},
-    version='1.0.0',
+    version='1.0.1',
     description='SMS API Client, send easy SMS text messages using https://easysms.4simple.org service.',
     author='http://www.4simple.org',
     author_email='support@4simple.org',
+    install_requires=['requests>=2.9.1'],
     classifiers=['Development Status :: 5 - Production/Stable',
                  'Intended Audience :: Developers',
                  'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
-                 'Programming Language :: Python :: 3',
+                 'Programming Language :: Python :: 2',
+                 'Programming Language :: Python :: 2.6',
                  'Programming Language :: Python :: 2.7',
+                 'Programming Language :: Python :: 3',
+                 'Programming Language :: Python :: 3.2',
+                 'Programming Language :: Python :: 3.3',
+                 'Programming Language :: Python :: 3.4',
+                 'Programming Language :: Python :: 3.5',
                  'Topic :: Software Development'],
     long_description='''
 SMS Python API Client ( https://easysms.4simple.org )

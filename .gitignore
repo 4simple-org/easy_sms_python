@@ -1,3 +1,7 @@
 
 .idea/
 *.pyc
+build/
+dist/
+src/sms_api.egg-info/
+
