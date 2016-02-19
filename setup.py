@@ -11,7 +11,7 @@ setup(
     url='https://bitbucket.org/smr-team/easy_sms_python',
     packages=['sms_api'],
     package_dir={'': 'src'},
-    version='1.0.0',
+    version='1.2.0',
     description='SMS API Client, send easy SMS text messages using https://easysms.4simple.org service.',
     author='http://www.4simple.org',
     author_email='support@4simple.org',
