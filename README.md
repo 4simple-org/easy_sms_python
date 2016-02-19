@@ -4,7 +4,7 @@ SMS API Client for Python
 Installation
 ------------
 
-> pip  install sms_api
+> pip  install sms-api
 
 
 This lib allow easily add SMS text messages to your python applications. Just create an account in
