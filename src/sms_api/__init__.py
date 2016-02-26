@@ -17,6 +17,7 @@ class SMS_Easy:
         Provide account credentials here at class constructor.
         :param user_id: Your account User ID (located in https://easysms.4simple.org/user/panel/)
         :param auth_token: Your account Authentication Token (located in https://easysms.4simple.org/user/panel/)
+        :param retries: amount of retries if server is busy.
         :return:
         """
         self.user_id = user_id
